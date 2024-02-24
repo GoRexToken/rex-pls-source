@@ -5,20 +5,37 @@ REX on PulseChain
 This document provides a quick overview about the contracts.
 
 # Contracts
-REX is a set of 13 smart contracts: 
+REX is a set of 14 smart contracts: 
 1. REX ["REX"] (main staking token - as seen before - introducing "sellableOf" and fees and WREX)
-2. STAKE MARKET (a DEX for REX STAKES - as seen before as "DEX")
+2. STAKE MARKET (a "DEX" for REX STAKES - as seen before as "DEX")
 3. TREX ["TREX"] (a support token including TREX airdrop - as seen before)
 4. WREX ["Wrapped REX"] (a Wrapped REX - Standard ERC-20 - mintable/burnable by REX main token)
-5. AIRDROP (free stakes for certain BSC-REX users - as seen before)
-6. SAC / SACRIFICE (an adoption of former AUCTIONS contract - possibility to SAC for REX)
-7. LIQUIDITY (an adoption of former AUCTIONS contract - possibility to provide liquidity for rewards)
-8. AIRDROP (BSC-REX users may claim 10 REX STAKES - as seen before)
-9. NFT (an ERC-721 NFT called "REXAGOTCHI" - extended with "plsStored" - a mod of audited ElephantMoney contract)
-10. NFT STAKING (a contract to stake and feed the NFT - a mod of audited ElephantMoney contract)
-11. NFT MARKET (a contract to stake and buy/sell the NFT - a mod of audited ElephantMoney contract)
-12. NFT TRAIT (a contract to track rarity of the NFT - audited ElephantMoney contract)
-13. AIRDROP ADDRESSES (a contract holding the list of airdrop receivers - used in AIRDROP)
+5. NFT (an ERC-721 NFT called "REXAGOTCHI" - extended with "plsStored" - a mod of audited ElephantMoney contract)
+6. NFT STAKING (a contract to stake and feed the NFT - a mod of audited ElephantMoney contract)
+7. NFT MARKET (a contract to stake and buy/sell the NFT - a mod of audited ElephantMoney contract)
+8. NFT TRAIT (a contract to track rarity of the NFT - audited ElephantMoney contract)
+9. SAC / SACRIFICE (an adoption of former AUCTIONS contract - possibility to SAC for REX)
+10. LIQUIDITY (an adoption of former AUCTIONS contract - possibility to provide liquidity for rewards)
+11. AIRDROP (BSC-REX users may claim 10 REX STAKES - as seen before)
+12. AIRDROP ADDRESSES (a contract holding the list of airdrop receivers - used in AIRDROP)
+13. REX PAIR (automatically generated AMM - pair for REX/PLS)
+14. TREX PAIR (automatically generated AMM - pair for TREX/PLS)
+
+# Contract adresses
+REX: 0x538B1BA51458565e553264c7F00d6De3806Aa9D9
+STAKE MARKET: 0x4c141A02955277E317Acdfeed4CCF8C381aF2C1f
+TREX: 0x955Cfb218AE529De48dd1CD3A4D94d1Eb5B7163D
+WREX: 0xAeA81f31D5a1623FC051475F3Ba4bA6CED32467b
+NFT: 0x8C25fC77F4DA71B7cC6350a2674013563a4FA946
+NFT STAKING: 0x3Fb047d98dfb95b0d42E9E29D64C934adb9DF74A
+NFT MARKET: 0x0795FA2bAcECBe508D0928F4eEDb1d22825F7bEa
+NFT TRAIT: 0x704CF4b45C3B96Cfa9a7D6ac98262011c7635A54
+SAC: 0xd406686230a3c827863DE4ae2967737EBda239FA
+LIQUIDITY: 0x108d9E03Bec333813AD2e2B1218F485ADe86547B
+AIRDROP: 0x9e066224a2fb3FA3fEC2A39809B4B7Aec954dfcA
+AIRDROP ADDRESSES: 0x4f41Dc5299cd43420e3223183f822d11FaE6f0F3
+REX PAIR: 0x8aA4871e6Aba19974869Bf635bF81f008185080E
+TREX PAIR: 0x0791240d989c8Bb8de522e04cb48A7D3e1b0ab76
 
 # NO-FULL-AUDIT-WARNING
 There is no new full audit for PLS-REX, as it is not affordable at the moment.
